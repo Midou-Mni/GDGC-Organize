@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FiCalendar, FiUsers } from 'react-icons/fi'
-import { Event, getUserById } from '../../data/mockData'
+import { Event } from '../../data/mockData'
 import { format } from 'date-fns'
 
 interface EventCardProps {
