@@ -8,7 +8,7 @@ interface UpdateItemProps {
 
 const UpdateItem = ({ update }: UpdateItemProps) => {
   // Format the date
-  const formattedDate = format(new Date(update.date), 'MMM d, yyyy')
+  // const formattedDate = format(new Date(update.date), 'MMM d, yyyy')
   const timeAgo = formatDistanceToNow(new Date(update.date), { addSuffix: true })
   
   // Get icon based on update type
